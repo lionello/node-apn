@@ -63,6 +63,12 @@ When the returned `Promise` resolves its' value will be an Object containing two
 
 An array of device tokens to which the notification was successfully sent and accepted by Apple.
 
+```javascript
+{
+  device: "834c8b48e6254e47435d74720b1d4a13e3e57d0bf318333c284c1db8ce8ddc58",
+}
+```
+
 Being `sent` does **not** guaranteed the notification will be _delivered_, other unpredictable factors - including whether the device is reachable - can ultimately prevent delivery.
 
 #### failed
